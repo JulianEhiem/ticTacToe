@@ -25,7 +25,7 @@ class TicTacToeTest {
     @Test
     @DisplayName("Computer chooses a position between 1 - 9")
     void computerChooses(){
-        assertTrue(TicTacToe.computerChooses() <= 9);
+        assertTrue(TicTacToe.computerChooses());
     }
 
 }

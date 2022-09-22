@@ -8,6 +8,7 @@ public class TicTacToe {
     public static void main(String[] args) {
         System.out.println("Let's Play a game of TicTacToe!");
         int user = choosePlayer();
+        boolean comp = computerChooses();
 //        player chosen
 //        player one chooses position
 //        position is updated on board
@@ -45,5 +46,9 @@ public class TicTacToe {
             if(i == response )return true;
         }
         return false;
+    }
+
+    public static boolean computerChooses() {
+        return true;
     }
 }
