@@ -57,6 +57,7 @@ public class TicTacToe {
     public static void displayTestBoard() {
 //        int [][] board = new int[][]{{1, 2, 3}, {4,5,6},{7,8,9}};
         String [][] board = new String[3][3];
+        String border = "_________";
 
         board[0][0] = "A";
         board[0][1] = "B";
@@ -72,9 +73,7 @@ public class TicTacToe {
 //        TODO: figure out why it prints 3 tables and solve it
 
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(Arrays.toString(board[j]) + ((i%2 == 0) ? "\n" : ""));
-            }
+            System.out.print(board[i][0] + " | " + board[i][1] + " | " + board[i][2] + "\n" + (i == 2 ? "" : border) + "\n");
         }
 
 
