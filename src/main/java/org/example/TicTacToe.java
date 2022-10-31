@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class TicTacToe {
     static String[][] gameBoard = createGameBoard();
 
+
     public static void main(String[] args) {
-//        System.out.println("Let's Play a game of TicTacToe!");
-//        int user = choosePlayer();
-//        boolean comp = computerChooses();
+        System.out.println("Let's Play a game of TicTacToe!");
+        int user = choosePlayer();
+        boolean comp = computerChooses();
         displayTestBoard();
 //        player chosen
 //        player one chooses position
