@@ -55,19 +55,18 @@ public class TicTacToe {
     }
 
     public static void displayTestBoard() {
-//        int [][] board = new int[][]{{1, 2, 3}, {4,5,6},{7,8,9}};
         String [][] board = new String[3][3];
-        String border = "_________";
+        String border = "---------";
 
-        board[0][0] = "A";
-        board[0][1] = "B";
-        board[0][2] = "C";
-        board[1][0] = "D";
-        board[1][1] = "E";
-        board[1][2] = "F";
-        board[2][0] = "G";
-        board[2][1] = "H";
-        board[2][2] = "I";
+        board[0][0] = " ";
+        board[0][1] = " ";
+        board[0][2] = " ";
+        board[1][0] = " ";
+        board[1][1] = " ";
+        board[1][2] = " ";
+        board[2][0] = " ";
+        board[2][1] = " ";
+        board[2][2] = " ";
 
 
 //        TODO: figure out why it prints 3 tables and solve it
