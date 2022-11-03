@@ -10,16 +10,24 @@ public class TicTacToe {
     public static void main(String[] args) {
         System.out.println("Let's Play a game of TicTacToe!");
         int user = choosePlayer();
+        user == 1 ? playerChooses() : computerChooses()
         boolean comp = computerChooses();
         displayTestBoard();
-//        player chosen
-//        player one chooses position
-//        position is updated on board
-//        player 2 chooses position
-//        position is updated on the board
-//        player 1 chooses again
-//        player 2 plays
-//        check for winner
+//     STEPS TO  PLAYING TIC TAC TOE
+//        choose player
+//        draw board
+//        provide instructions
+//        player 1
+//        update GB
+//        player 2
+//        update GB
+//        player 1
+//        update GB
+//        player 2
+//        update GB
+//        player 1
+//        update and check
+
 
 
 
