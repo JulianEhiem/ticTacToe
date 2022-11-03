@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e285249-9d14-4633-89c3-ba371db04fe0" name="Changes" comment="" />
+    <list default="true" id="0e285249-9d14-4633-89c3-ba371db04fe0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TicTacToeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +52,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
+  <component name="RunManager" selected="JUnit.TicTacToeTest.computerChooses">
     <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TicTacToe" />
       <module name="TicTacToe" />
@@ -128,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="JUnit.TicTacToeTest.computerChooses" />
+        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="JUnit.TicTacToeTest.choosePlayer" />
         <item itemvalue="JUnit.TicTacToeTest.validateResponse" />
         <item itemvalue="JUnit.TicTacToeTest.createGameBoard" />

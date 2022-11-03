@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class TicTacToe {
     static String[][] gameBoard = createGameBoard();
 
+// TODO: update the computerchooses function to recieve an array and choose randomly from that array
 
     public static void main(String[] args) {
         System.out.println("Let's Play a game of TicTacToe!");
         int user = choosePlayer();
-        user == 1 ? playerChooses() : computerChooses()
-        boolean comp = computerChooses();
-        displayTestBoard();
+//        user == 1 ? playerChooses() : computerChooses()
+//        boolean comp = computerChooses();
+//        displayTestBoard();
 //     STEPS TO  PLAYING TIC TAC TOE
 //        choose player
 //        draw board
@@ -59,8 +60,9 @@ public class TicTacToe {
         return false;
     }
 
-    public static boolean computerChooses() {
-        return true;
+    public static int computerChooses() {
+        int choice = (int) (Math.ceil(Math.random() * 9) + 1);
+        return choice;
     }
 
     public static void displayTestBoard() {

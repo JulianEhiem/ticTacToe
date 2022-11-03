@@ -8,12 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class TicTacToeTest {
 
     @Test
-    @DisplayName("An Object representing the game board should be created")
-    void createGameBoard(){
-        assertTrue(TicTacToe.createGameBoard().length == 3);
-    }
-
-    @Test
     @DisplayName("The response should be one of the acceptable responses")
     void validateResponse(){
         assertAll(
@@ -23,9 +17,10 @@ class TicTacToeTest {
     }
 
     @Test
-    @DisplayName("Computer chooses a position between 1 - 9")
+    @DisplayName("Computer chooses a position from the given available positions")
     void computerChooses(){
-        assertTrue(TicTacToe.computerChooses());
+        int choice = TicTacToe.computerChooses(new int[]{1,2,3,4,5});
+        assertTrue(choice >= 1 && choice <= 9);
     }
 
 }
